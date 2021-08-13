@@ -1,0 +1,20 @@
+html{
+  min-zoom: 1.0;
+  min-height: 10px;
+  min-width: 998px;
+  font-size: 40px;
+}
+.headone{
+  background-color: #5ac8e3;
+}
+.butone{
+  width: 300px;
+  height: 100px;
+  position: fixed;
+  top:80%;
+  left: 60%;
+  background-color: #c685e4;
+  color: white;
+  border: solid white 2px;
+  border-radius: 30px;
+}

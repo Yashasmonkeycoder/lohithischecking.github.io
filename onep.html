@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+  <head >
+       <script language="javascript" type="text/javascript" src="foonep.js"></script>
+    <style >
+      #redo,#reda,#redb,#redc,#redd,#rede{
+        border:solid black 10px;
+        border-color: black;
+        padding-block: 20px;
+        padding-left: 200px;
+        
+      }
+      #redoo,#redaa,#redbb,#redcc,#reddd,#redee{
+        border:solid black 10px;
+        border-color: black;
+        padding-block: 20px;
+        padding-left: 200px;
+      }
+      @keyframes animone{
+        0%{transform: scale(0);}
+        100%{transform:scale(1.0)}
+      }
+      .tpdivo,.bordthi,#butoverall,.forfunonehi{
+        animation-name: animone;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        display: none;
+      }
+    </style>
+  </head>
+  <link rel="stylesheet" href="style.css"/>
+  <body oncopy="return false" onpaste="return false" oncut="return false" style="background-color:#5ac8e3">
+    <label><h4 >select your title's font size:</h4>
+    <h1 id="hone" onclick="hone()" style="padding-left:290px; color:black; width:500px; height:40px;">1.Title</h1><h2 onclick="htwo()" style="padding-left:310px; color:black; width:500px; height:40px;" id="htwo">2.Title</h2><h3 onclick="hthree()" style="padding-left:320px; color:black; width:500px; height:40px;" id="hthree">3.Title</h3></label><div style="font-size:50px;">
+    1.<input type="checkbox" id="ptitco" style="width:80px; height:30px"/> 2.<input type="checkbox" id="ptitct" style="width:80px; height:30px"/> 3.<input type="checkbox" id="ptitcth" style="width:80px; height:30px"/></div><button type="button" id="checkpotit" onClick="potitconf()" style="width:125px; height:70px; border:solid white 2px; border-radius:20px; font-size:40px; left:50%; top:0%; bottom:80%;">OK</button>
+    <h5 style="border:solid black 3px; width:990px; height:1px;"></h5>
+    <label >Enter Title text:</label>
+    <form method="POST" name="form1">
+    <input type="text" placeholder="Enter your title" style="width:600px; height:70px; border:solid black 2px; border-radius:20px; font-size:40px;" id="ponetittex"/>
+    <button type="button" id="printone" onClick="stone()" style="width:200px; height:70px; border:solid white 2px; border-radius:20px; font-size:40px;">OK</button>
+     <h4 style="border:solid black 3px; width:990px; height:1px;"></h4>
+     <label >Do you want border on the title:</label></br></br><input type="checkbox" id="checkbone" style="width:80px; height:30px;"/>Yes</br></br> <input type="checkbox" id="checkbtwo" style="width:80px; height:30px;"/>No</br><button type="button" id="checksuboonetow" onClick="checkconfo()" style="width:125px; height:70px; border:solid white 2px; border-radius:20px; font-size:40px;">OK</button></br></br>
+     <div class="bordthi" id="bordthi">
+     <label >Enter border thickness in numbers:</label>
+    <form method="POST" name="form1">
+    <input type="number" placeholder="Enter the size of border's thickness" style="width:600px; height:70px; border:solid black 2px; border-radius:20px; font-size:40px;" id="bordcheckaft"/>
+    <button type="button" id="printone" onClick="sttwo()" style="width:200px; height:70px; border:solid white 2px; border-radius:20px; font-size:40px;">OK</button></div>
+    <h5 style="border:solid black 3px; width:990px; height:1px;"></h5>
+    <div id="tpdivot" style="display:block">
+     
+     <h4 >choose colour for background:</h4>
+     <h6 onclick="redo()" style="width:40px; height:40px; background-color:#ef7171" id="redo">
+      <h6 onclick="reda()" style="width:40px; height:40px; background-color:#e676e5" id="reda">
+       <h6 onclick="redb()" style="width:40px; height:40px; background-color:#7091e7" id="redb">
+        <h6 onclick="redc()" style="width:40px; height:40px; background-color:#74c9df" id="redc">
+         <h6 onclick="redd()" style="width:40px; height:40px; background-color:#78ec91" id="redd">
+          <h6 onclick="rede()" style="width:40px; height:40px; background-color:#d6c66e" id="rede"></h6></h6></h6></h6></h6></h6>
+          </div>
+      <div id="tpdivo" class="tpdivo">
+      <h4 >choose colour for Title's background:</h4>
+     <h6 onclick="redoo()" style="width:40px; height:40px; background-color:#ef7171" id="redoo">
+      <h6 onclick="redaa()" style="width:40px; height:40px; background-color:#e676e5" id="redaa">
+       <h6 onclick="redbb()" style="width:40px; height:40px; background-color:#7091e7" id="redbb">
+        <h6 onclick="redcc()" style="width:40px; height:40px; background-color:#74c9df" id="redcc">
+         <h6 onclick="reddd()" style="width:40px; height:40px; background-color:#78ec91" id="reddd">
+          <h6 onclick="redee()" style="width:40px; height:40px; background-color:#d6c66e" id="redee"></h6></h6></h6></h6></h6></h6></div>
+             <button type="button" onClick="colorselo()" style="width:150px; height:100px; border:solid white 2px; border-radius:500px; font-size:60px; ;">→</button>
+             <button id="butoverall" onclick="overallpone()" href="forlohith.html" style="position:fixed; top:50%; left:75%; width:230px; height:80px; border:solid white 6px; border-radius:100px; background-color:lime; color:rgb(153,153,60); font-size:40px;"><a href="forlohith.html" style="color:rgb(153,153,60); text-size:40px; text-decoration: none; ">FINNISH ✓</a></button>
+             <h4 class="forfunonehi" id="forfunh" style="font-size:400px; position:fixed; left:20%; top:20%;">👍</h4>
+  </body>
+</html>
